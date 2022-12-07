@@ -1,3 +1,4 @@
+import React from "react";
 
 const toDos = [
     { id: 1, name: 'Do Hack the box challenge' },
@@ -11,7 +12,7 @@ const toDos = [
     { id: 9, name: 'clean up'},
   ]
   
-  export default function checks() {
+  export default function Checks() {
     return (
       <fieldset>
         <legend className="text-lg font-medium text-gray-900">Joey loves you</legend>
